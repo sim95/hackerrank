@@ -15,12 +15,10 @@ int main(){
         dn = N/C;
         total = dn;
         
-        while(dn){
-            if((dn-M)>=0){
-                dn = dn-M;
-                total++;
-                dn++;
-            }
+        while((dn-M)>=0){
+            dn = dn-M;
+            total++;
+            dn++;
         }
         cout<<total<<"\n";
     }
